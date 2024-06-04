@@ -1,0 +1,35 @@
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    height: 100%;  
+}  
+  
+.blurred-bg {  
+    position: relative;  
+    height: 100vh; /* 视口高度 */  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    overflow: hidden; /* 防止背景图片溢出 */  
+    background-image: url('1.jpg'); /* 替换为你的图片URL */
+    background-size: cover; /* 背景图片覆盖整个容器 */  
+    background-position: center; /* 背景图片居中 */  
+}  
+  
+.blurred-bg::before {  
+    content: "";  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%;  
+    background-image: inherit; /* 继承父元素的背景图片 */  
+    background-size: cover;  
+    filter: blur(10px); /* 应用虚化效果，你可以调整这个值来改变虚化程度 */  
+    z-index: -1; /* 确保背景在内容之下 */  
+}  
+  
+.blurred-bg h1, .blurred-bg p {  
+    color: white; /* 根据你的背景图片调整文本颜色 */  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文本阴影以增强可读性 */  
+}

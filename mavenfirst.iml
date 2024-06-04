@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/BoolCal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/FileOperation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Servlet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/pagerank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/summary" isTestSource="false" />
+    </content>
+  </component>
+</module>

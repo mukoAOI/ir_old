@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询表单</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blurred-bg">
+<form action="/query" method="post">
+    <label for="number">选择模式(1是倒排索引，2是暴力查询):</label>
+    <select id="number" name="num">
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+    <br>
+    <label for="text">请输入查询语句:</label>
+    <input type="text"  id ="text" name="query" value="" required>
+    <br>
+    <input type="submit" value="查询">
+</form>
+</div>
+</body>
+</html>
